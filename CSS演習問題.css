@@ -1,6 +1,8 @@
 header {
     display: flex;
     justify-content: space-between;
+    width: 100%;
+    height: auto;
 }
 
 .name {
@@ -19,7 +21,9 @@ h1 {
 .navs {
    padding: 25px;
    font-size: 18px;
-   font-weight: bold;   
+   font-weight: bold; 
+   
+    
 }
 .navs > a {
     text-decoration: none;
@@ -28,27 +32,34 @@ h1 {
 }
 
 img {
-    width : 800px;
-    height: 500px;
+    width : 50%;
+    height: auto;
     position: absolute;
     top: 25% ;
     left: 51% ;
     z-index: 10;
+    background-size: contain;
 
 }
 h2 {
     font-size: 70px;
     font-weight: lighter;
-    position: absolute;
+    position: absolute ;
     top : 50%;
-    
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+    height: auto;
+
 
 }
 .box {
     width: 1000px;
     height: 200px;
     background-color: rgb(25, 25, 134);
-    position: absolute;
-    top: 68% ;
+    position: absolute  ;
+    top: 70% ;
     left: 0;
+    z-index: 5;
+    max-width: 100%;
 }
