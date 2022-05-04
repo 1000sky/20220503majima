@@ -31,23 +31,26 @@ h1 {
     margin-left: 20px;   
 }
 
+
+.parent{
+
+    margin-top: 100px;
+}
 img {
     width : 50%;
     height: auto;
     position: absolute;
-    top: 25% ;
     left: 51% ;
     z-index: 10;
-    background-size: contain;
+    max-width: 970;
+    
 
 }
 h2 {
     font-size: 70px;
     font-weight: lighter;
     position: absolute ;
-    top : 50%;
-    z-index: 10;
-    position: fixed;
+    top : 50%; 
     width: 100%;
     height: auto;
 
@@ -61,5 +64,5 @@ h2 {
     top: 70% ;
     left: 0;
     z-index: 5;
-    max-width: 100%;
+    
 }
